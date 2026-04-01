@@ -1,0 +1,46 @@
+```markdown
+# AgentOS
+
+A local-first, resource-aware framework for running modular AI agents on consumer hardware.
+
+## Overview
+
+AgentOS provides a minimal orchestration layer for:
+- spawning and terminating task-specific agents
+- executing structured workflows
+- storing logs and task data locally
+- enforcing simple role-based behavior via SOPs
+
+This project is designed to be:
+- lightweight
+- modular
+- fully self-hosted
+
+## Status
+
+Early development (pre-MVP)
+
+## Goals
+
+- deterministic agent workflows
+- low resource usage
+- reproducible task execution
+- local data ownership
+
+## Planned Features
+
+- task queue (SQLite)
+- agent lifecycle management (spawn/kill)
+- SOP-based agent definitions
+- logging and replay system
+- CLI interface
+- optional GPU-aware execution
+- local feedback system (like/dislike)
+
+## Usage
+
+Not yet implemented.
+
+## License
+
+See LICENSE file.
