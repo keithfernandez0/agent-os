@@ -1,0 +1,9 @@
+system:
+  max_agents: 4
+  log_level: "INFO"
+runtime:
+  gpu_enabled: true
+  fallback_cpu: true
+  local_model_path: "models/llama-2-7b.Q4_K_M.gguf" # Example path for local model
+feedback:
+  process_idle_only: true
